@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.pomalaza_pa1.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.pomalaza_pa1.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.pomalaza_pa1.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/nav_calculator"
+        android:name="com.example.pomalaza_pa1.ui.calculator.CalculatorFragment"
+        android:label="@string/menu_triangle"
+        tools:layout="@layout/fragment_calculator" />
+
+    <fragment
+        android:id="@+id/nav_change_binari_base"
+        android:name="com.example.pomalaza_pa1.ui.changebinariofbase.ChangeBinariBaseFragment"
+        android:label="@string/menu_binari_base"
+        tools:layout="@layout/fragment_change_binari_base" />
+    <fragment
+        android:id="@+id/nav_change_base_binari"
+        android:name="com.example.pomalaza_pa1.ui.changebaseofbinari.ChangeBaseBinariFragment"
+        android:label="@string/menu_base_binari"
+        tools:layout="@layout/fragment_change_base_binari" />
+</navigation>

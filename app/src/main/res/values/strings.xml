@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">POMALAZA_PA1</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="menu_triangle">Area del triangulo</string>
+    <string name="menu_binario_base">Cambio de binario a base</string>
+    <string name="menu_binari_base">Cambio de binario a base 10</string>
+    <string name="menu_base_binari">Cambio de base 16 a Binario</string>
+</resources>

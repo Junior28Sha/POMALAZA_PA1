@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.calculator.CalculatorFragment">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+          <TextView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:text="primer lado:"/>
+
+        <EditText
+            android:id="@+id/et_primerlado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Escribir la longitud del primer lado"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="segundo lado:"/>
+        <EditText
+            android:id="@+id/et_segundolado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Escribir la longitud del segundo lado"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="base del triangulo:" />
+
+        <EditText
+            android:id="@+id/et_base"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Escribir la longitud de la base"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="altura del triangulo:" />
+
+        <EditText
+            android:id="@+id/et_altura"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Escribir la longitud de la altura"/>
+
+        <Button
+            android:id="@+id/btn_calcular"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Calcular"
+            android:layout_margin="20dp"
+
+            />
+
+        <TextView
+            android:id="@+id/tv_result"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+             />
+
+
+
+    </LinearLayout>
+
+</FrameLayout>
